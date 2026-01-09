@@ -1,0 +1,30 @@
+---
+Name: fsquirt.exe
+Description: Bluetooth File Transfer Wizard used by Windows.
+Author: Microsoft
+Created: 2026-01-09
+Commands:
+  - Command: fsquirt.exe
+    Description: Executes the Bluetooth File Transfer Wizard.
+    Usecase: >
+      Executes a Control Panel applet by implicitly loading bthprops.cpl
+      from the current working directory when fsquirt.exe is executed
+      outside of its default system location.
+    Category: Execute
+    Privileges: User
+    MitreID: T1574.002
+    OperatingSystem: Windows 11, Windows 10, Windows Server
+    Tags:
+      - Execute: CPL
+      - ProxyExecution
+Full_Path:
+  - Path: C:\Windows\System32\fsquirt.exe
+  - Path: C:\Windows\SysWOW64\fsquirt.exe
+Detection:
+  - IOC: fsquirt.exe loading bthprops.cpl from a non-system directory
+Resources:
+  - Link: https://attack.mitre.org/techniques/T1574/002/
+  - Link: https://securelist.com/beyond-the-surface-sidewinder-apt/
+  - Link: https://github.com/PhyoPaingHtun/TestPanda/blob/main/image_load_win_fsquirt_dll_load_from_non_system_paths.yml
+Acknowledgement:
+  - Person: Phyo Paing Htun
