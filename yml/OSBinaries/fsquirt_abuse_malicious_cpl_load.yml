@@ -9,7 +9,7 @@ Commands:
     Usecase: >
       Executes a Control Panel applet by implicitly loading bthprops.cpl
       from the current working directory when fsquirt.exe is executed
-      outside of its default system location.
+      outside of its default system location.This behavior may indicate abuse of malicious CPL to execute code under the context of a trusted Windows binary.
     Category: Execute
     Privileges: User
     MitreID: T1574.002
