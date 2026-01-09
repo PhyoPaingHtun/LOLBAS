@@ -16,7 +16,6 @@ Commands:
     OperatingSystem: Windows 11, Windows 10, Windows Server
     Tags:
       - Execute: CPL
-      - ProxyExecution
 Full_Path:
   - Path: C:\Windows\System32\fsquirt.exe
   - Path: C:\Windows\SysWOW64\fsquirt.exe
