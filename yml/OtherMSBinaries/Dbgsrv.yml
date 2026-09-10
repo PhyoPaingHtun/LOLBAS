@@ -54,3 +54,7 @@ Resources:
   - Link: https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/applications-that-can-bypass-appcontrol
   - Link: https://redcanary.com/blog/threat-detection/black-hat-detecting-the-unknown-and-disclosing-a-new-attack-technique/
   - Link: https://gist.github.com/analyticsearch/de5c05229d5bf4f8c72016a2a43034eb
+
+Acknowledgement:
+  - Person: PHYO PAING HTUN
+    Handle: '@PhyoPaingHtun'
